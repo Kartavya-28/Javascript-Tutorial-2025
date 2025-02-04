@@ -1,13 +1,13 @@
 // Remember, we're gonna use strict mode in all scripts now!
 'use strict';
 
-const x = 23;
-
-const calcAge = (birthYear) => 2037 - birthYear;
-
-console.log(calcAge(1925));
-console.log(x);
 // const x = 23;
+
+// const calcAge = (birthYear) => 2037 - birthYear;
+
+// console.log(calcAge(1925));
+// console.log(x);
+// // const x = 23;
 
 //console.log('x', 'asasssaddadsaaa');
 // learn to code and be a problem solver videos done
@@ -160,3 +160,17 @@ console.log(x);
 // I wrote this code but in this section the code wAas written by chatgpt which was also easily writeable.
 
 //HTML AND CSS
+
+
+
+
+const calctempamp (arrays)
+{
+    let max = arrays[0];
+    for(let i=0;i<arrays.length;i++)
+    {
+        if(arrays[i] > max) max = arrays[i];
+        
+    }
+    console.log(max);
+}
