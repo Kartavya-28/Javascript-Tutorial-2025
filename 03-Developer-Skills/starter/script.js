@@ -1,19 +1,18 @@
 // Remember, we're gonna use strict mode in all scripts now!
 'use strict';
 
+const x = 23;
+
+const calcAge = (birthYear) => 2037 - birthYear;
+
+console.log(calcAge(1925));
+console.log(x);
 // const x = 23;
 
-// const calcAge = birthYear => 2037 - birthYear;
-
-// console.log(calcAge(2005));
-
-// const x = 23;
-
-// console.log('x', 'asasssaddadsaaa');
+//console.log('x', 'asasssaddadsaaa');
 // learn to code and be a problem solver videos done
-
+//  BUG
 // Steps
-
 // 1 get clear picutre of the whole problem
 // 2 break problem into multiple smaller problems
 // 3 try to solve sub problem and if not, research if unable to solve the sub problem
@@ -158,6 +157,6 @@
 // };
 
 // console.log(Total(Data));
-// i wrote this code but in this section the code wAas written by chatgpt which was also easily writeable.
+// I wrote this code but in this section the code wAas written by chatgpt which was also easily writeable.
 
 //HTML AND CSS
