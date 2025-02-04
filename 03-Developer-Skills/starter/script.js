@@ -164,13 +164,22 @@
 
 
 
-const calctempamp (arrays)
+const calctempamp = function(arrays)
 {
     let max = arrays[0];
+    let min = arrays[0];
     for(let i=0;i<arrays.length;i++)
     {
-        if(arrays[i] > max) max = arrays[i];
-        
+        const curtemp=arrays[i];
+        if(typeof curtemp !=='number') continue;
+        if(curtemp > max) max = curtemp;
+        if(curtemp < min) min = curtemp;
     }
-    console.log(max);
+    console.log(max,min);
 }
+
+calctempamp([1,23,43]);
+
+const tempSet1 = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
+
+calctempamp(tempSet1);
